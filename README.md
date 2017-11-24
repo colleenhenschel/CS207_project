@@ -13,6 +13,9 @@ The aim of this project is to use an arduino uno for determining the moisture co
 - Gravity Analog pH Meter Kit
 - assortment of cables
 
+## Circuit Diagram:
+
+![Alt text](https://github.com/henschec/CS207_project/blob/master/soilsensorcircuit.png "Arduino Circuit Setup")
 
 ## Temperature Sensor:
 Setup for the waterproof temperature sensor follows codebender_cc's article on instructables "How to Use DS18B20 Temperature Sensor - Arduino Tutorial", link: http://www.instructables.com/id/How-to-use-DS18B20-Temperature-Sensor-Arduino-Tuto/
