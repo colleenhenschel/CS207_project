@@ -33,8 +33,13 @@ The code for reading the temperature sensor uses the libraries OneWire.h, and Da
 ## Moisture Sensor:
 Setup for the soil moisture sensor follows a basic tutorial on ElectronicWings called "Soil Moisture Sensor Interfacing with Arduino UNO ", link: http://www.electronicwings.com/arduino/soil-moisture-sensor-interfacing-with-arduino-uno
 
-The purchased moisture sensor has everything built in. Five female to female cables are needed to connect the moisture sensor to the Arduino. Two connect the conducting probes to the integrated circuit, and the other three are used to connect the integrated circuit to 5 V, ground, and analog pin 1.
+The purchased moisture sensor has everything built in. Five female to female cables are needed to connect the moisture sensor to the Arduino. Two connect the conducting probes to the integrated circuit, and the other three are used to connect the integrated circuit to 5 V, ground, and analog pin 1. Note that the moisture sensor used in the creation of this project is shown below, and differs slightly from the one shown in the circuit diagram. The sensor board has four connectors, VCC, GND, D0, and A0, from bottom to top in the picture below. The VCC connects to 5 V on the breadboard, GND connects to ground, and A0 connects to analog pin 1 on the Arduino.
 
-picture here?
+![Alt text](https://github.com/henschec/CS207_project/blob/master/moisturesensor.png "XCSOURCE Soil Moisture Sensor")
 
-The code for the soil moisture sensor is pretty straight forward... changes will need to be made here for when I calibrate the moisture sensor.
+The code for the soil moisture sensor is pretty straight forward. It simply reads in the analog value (ranging from 0 to 1023, 0 for when the sensor is completely submersed in water, 1023 when dry) and converts this value based on the analysis plot shown below.
+
+Do analysis of moisture sensor readings for different water contents of soil.
+
+## pH Sensor:
+The pH sensor is similar to the soil moisture sensor, everything comes built in. The board for the pH sensor is connected to the BNC cable that is attached to the pH sensor. THe other end of the board has 3 wires, black = GND, red = VCC, and blue = A0. The black wire is connected to ground on breadboard, red connected to 5 V, and the blue wire gets connected to analog pin 0 on the arduino.
