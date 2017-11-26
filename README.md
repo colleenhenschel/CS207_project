@@ -15,7 +15,7 @@ The aim of this project is to use an arduino uno for determining the moisture co
 
 ## Circuit Diagram:
 
-![Alt text](https://github.com/henschec/CS207_project/blob/master/soilsensorcircuit.png "Arduino Circuit Setup")
+![Alt text](https://github.com/henschec/CS207_project/blob/master/Soil_Sensor_Circuit.png "Arduino Circuit Setup")
 
 ## Temperature Sensor:
 Setup for the waterproof temperature sensor follows codebender_cc's article on instructables "How to Use DS18B20 Temperature Sensor - Arduino Tutorial", link: http://www.instructables.com/id/How-to-use-DS18B20-Temperature-Sensor-Arduino-Tuto/
@@ -42,4 +42,4 @@ The code for the soil moisture sensor is pretty straight forward. It simply read
 Do analysis of moisture sensor readings for different water contents of soil.
 
 ## pH Sensor:
-The pH sensor is similar to the soil moisture sensor, everything comes built in. The board for the pH sensor is connected to the BNC cable that is attached to the pH sensor. THe other end of the board has 3 wires, black = GND, red = VCC, and blue = A0. The black wire is connected to ground on breadboard, red connected to 5 V, and the blue wire gets connected to analog pin 0 on the arduino.
+The pH sensor is similar to the soil moisture sensor, everything comes built in. The board for the pH sensor is connected to the BNC cable that is attached to the pH sensor. THe other end of the board has 3 wires, black = GND, red = VCC, and blue = A0. The black wire is connected to ground on breadboard, red connected to 5 V, and the blue wire gets connected to analog pin 2 on the arduino.
