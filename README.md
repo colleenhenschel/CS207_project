@@ -17,6 +17,10 @@ The aim of this project is to use an arduino uno for determining the moisture co
 
 ![Alt text](https://github.com/henschec/CS207_project/blob/master/Soil_Sensor_Circuit.png "Arduino Circuit Setup")
 
+## Code:
+
+The code for the sensor is called soil_property_sensor.ino found https://github.com/henschec/CS207_project/blob/master/soil_property_sensor.ino
+
 ## Temperature Sensor:
 Setup for the waterproof temperature sensor follows codebender_cc's article on instructables "How to Use DS18B20 Temperature Sensor - Arduino Tutorial", link: http://www.instructables.com/id/How-to-use-DS18B20-Temperature-Sensor-Arduino-Tuto/
 
