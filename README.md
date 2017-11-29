@@ -41,7 +41,17 @@ The purchased moisture sensor has everything built in. Five female to female cab
 
 ![Alt text](https://github.com/henschec/CS207_project/blob/master/moisturesensor.png "XCSOURCE Soil Moisture Sensor")
 
-The code for the soil moisture sensor is pretty straight forward. It simply reads in the analog value (ranging from 0 to 1023, 0 for when the sensor is completely submersed in water, 1023 when dry) and converts this value based on the analysis plot shown below.
+The code for the soil moisture sensor is pretty straight forward. It simply reads in the analog value (ranging from 0 to 1023, 0 for when the sensor is completely submersed in water, 1023 when dry) and converts this value into percentage (0 percent for 1023, 100 percent for 0).
+
+Analysis was conducted using 2 cups of soil, and incrementing the water content by 1/4 cup and reading in the value.
+The table below shows the results.
+
+| Volume Water/Volume soil | Analog Readout |
+| ------------------------ | -------------- |
+|           0              |      1023      |
+|       0.125         |     766   |
+| 0.25 | 345 |
+| 0.375 | 220 |
 
 Do analysis of moisture sensor readings for different water contents of soil.
 
