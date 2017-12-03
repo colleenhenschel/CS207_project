@@ -49,8 +49,17 @@ void loop() {
   Serial.print(moisture_percentage); //value
   Serial.print("%\n\n");
   float volwaterovervolsoil; //Will store the fraction of volume of water / volume of soil
-  
-  
+  Serial.print("Moisture Content (Vol water/ Vol Soil) = ");
+  if(sensor_analog > 220)
+  {
+    volwaterovervolsoil = (sensor_analog - 1023)/(-2580.8);
+    Serial.print(volwaterovervolsoil);
+  }
+  else
+  {
+    Serial.print("Greater than 0.3111")
+  }
+  Serial.print("%\n\n");
   // pH:
   float phvalue = 3.5*(float)analogRead(pH_pin)*5.0/1024; //the 5.0/1024 converts to volts, the 3.5 converts to pH value
   Serial.print("    pH:");
