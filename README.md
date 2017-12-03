@@ -52,8 +52,10 @@ The table below shows the results.
 |       0.125         |     766   |
 | 0.25 | 345 |
 | 0.375 | 220 |
+| 0.5 | 220 |
+| 0.625 | 220 |
 
-Do analysis of moisture sensor readings for different water contents of soil.
+
 
 ## pH Sensor:
 The pH sensor is similar to the soil moisture sensor, everything comes built in. The board for the pH sensor is connected to the BNC cable that is attached to the pH sensor. THe other end of the board has 3 wires, black = GND, red = VCC, and blue = A0. The black wire is connected to ground on breadboard, red connected to 5 V, and the blue wire gets connected to analog pin 2 on the arduino.
