@@ -59,7 +59,7 @@ void loop() {
   {
     Serial.print("Greater than 0.3111");
   }
-  Serial.print("%\n\n");
+  Serial.print("\n\n");
   // pH:
   float phvalue = 3.5*(float)analogRead(pH_pin)*5.0/1024; //the 5.0/1024 converts to volts, the 3.5 converts to pH value
   Serial.print("    pH:");
