@@ -55,9 +55,22 @@ The table below shows the results.
 | 0.5 | 220 |
 | 0.625 | 220 |
 
+![Alt text](https://github.com/henschec/CS207_project/blob/master/moisture_calibration.png)
 
+This shows that up until the sensor maxes out (at around 220 bytes) the fraction of water volume / soil volume is around equal to (analog readout - 1023)/(-2580.8).
+
+We can also note that the volume at which the sensor maxes out is 31.11%, which indicates the soil used for this calibration has a pore space of 31.11%.
+
+It should be noted that this is a rough calibration, and is not conducted with accurate precision. A more detailed calibration could be conducted with more data points to get a more accurate fit.
 
 ## pH Sensor:
 The pH sensor is similar to the soil moisture sensor, everything comes built in. The board for the pH sensor is connected to the BNC cable that is attached to the pH sensor. THe other end of the board has 3 wires, black = GND, red = VCC, and blue = A0. The black wire is connected to ground on breadboard, red connected to 5 V, and the blue wire gets connected to analog pin 2 on the arduino.
 
 To use the pH sensor, the cap must be removed from the probe. Carefully unscrew the plastic cap and then remove the lid by sliding the rubber stopper down the probe. Be cautious when removing the lid as the end of the probe that goes into the soil is made of glass and can break easily.  
+
+It should be noted that the pH sensor will not work if there is not an adaquate amount of liquid present, and will therefore not work if the soil is dry. It can, however, be used to measure the pH of any liquid that is contained within the soil, but if it is too dry to get a measurement, that liquid may have to be drained out of the soil and measured separately.
+
+## Output:
+The output of the sensor is shown below.
+![Alt text](https://github.com/henschec/CS207_project/blob/master/soilsensor_output.png)
+
