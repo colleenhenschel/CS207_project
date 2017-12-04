@@ -57,7 +57,7 @@ void loop() {
   }
   else
   {
-    Serial.print("Greater than 0.3111")
+    Serial.print("Greater than 0.3111");
   }
   Serial.print("%\n\n");
   // pH:
