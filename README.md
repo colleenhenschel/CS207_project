@@ -59,7 +59,7 @@ The table below shows the results.
 
 This shows that up until the sensor maxes out (at around 220 bytes) the fraction of water volume / soil volume is around equal to (analog readout - 1023)/(-2580.8).
 
-We can also note that the volume at which the sensor maxes out is 31.11%, which indicates the soil used for this calibration has a pore space of 31.11%.
+We can also note that the volume at which the sensor maxes out is 31.11%, which could indicate that the soil used for this calibration has a pore space of 31.11%. It could also be that the voltage applied accross the conducting probes can only be reduced to around 1 V (approximately 220 bytes) by any amount of water present.
 
 It should be noted that this is a rough calibration, and is not conducted with accurate precision. A more detailed calibration could be conducted with more data points to get a more accurate fit.
 
