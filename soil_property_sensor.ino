@@ -7,6 +7,10 @@
  * 
  * The values of a waterproof temperature sensor, smoisture sensor, 
  * and a pH sensor will be printed to Serial
+ * 
+ * The moisture sensor is connected to analog pin 1,
+ * The pH sensor is connected to analog pin 2,
+ * and the Temperature sensor is connected to digital pin 2.
  */
 
 //Include libraries
